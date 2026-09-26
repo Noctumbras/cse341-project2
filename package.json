@@ -1,0 +1,30 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/noctumbras/cse341-project1#readme",
+  "bugs": {
+    "url": "https://github.com/noctumbras/cse341-project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noctumbras/cse341-project1.git"
+  },
+  "license": "ISC",
+  "author": "Stephen Sanders",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongodb": "^7.6.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1",
+    "validatorjs": "^3.22.1"
+  }
+}
